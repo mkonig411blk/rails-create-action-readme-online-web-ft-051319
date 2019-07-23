@@ -18,7 +18,7 @@ class PostsController < ApplicationController
     post.title = params[:title]
     post.description = params[:description]
     post.save
-    redirect_to post_path(@post)
+    redirect_to post_path
     # without this redirect, it will try to find create.html.erb
   end
   
