@@ -4,8 +4,3 @@ Rails.application.routes.draw do
   get '/post/:id', to: 'posts#show', as: 'post'
   # why can't we include show in line 3
 end
-
-Rails.application.routes.draw do
-  resources :students, only: [:index, :new, :create]
-  get '/student/:id', to: 'students#show', as: 'student'
-end
