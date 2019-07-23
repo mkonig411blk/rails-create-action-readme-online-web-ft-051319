@@ -595,3 +595,4 @@ Started GET "/posts/1" for 127.0.0.1 at 2019-07-23 00:51:12 +0000
   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
   [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
